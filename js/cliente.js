@@ -25,5 +25,5 @@ const exibeCliente = (cpf, nome) => {
 };
 
 informacoesClientes.forEach((indice) => {
-  corpoTabela.appendChild(exibeCliente(indice.cpf, indice.cpf));
+  corpoTabela.appendChild(exibeCliente(indice.cpf, indice.nome));
 });
